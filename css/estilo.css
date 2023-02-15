@@ -1,0 +1,36 @@
+/* limpar as configurações */
+html{
+margin: 0;
+padding: 0; 
+font-size: 1.3em;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.perfil{
+background-image: url("/images/fundo.png");
+background-repeat: no-repeat;
+margin: 0 auto;
+}
+
+header{
+    margin: 0 auto;
+    border-radius:10%;
+}
+
+button{
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+    animation-duration: 1000ms;
+}
+button:hover{
+    background-color: rgb(179, 26, 250);
+    color: white;
+    animation-delay: 1000ms;
+}
